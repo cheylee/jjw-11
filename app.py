@@ -2,10 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
-
 import flask
-from flask_cors import CORS
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
