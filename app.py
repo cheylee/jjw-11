@@ -21,7 +21,7 @@ server= app.server
 # 数据载入
 
 
-df = pd.read_csv('data/jjwcut.csv')
+df = pd.read_csv('data/jjw-new.csv')
 # app的layout 
 ava_PointName=df['PointName'].unique()
 
