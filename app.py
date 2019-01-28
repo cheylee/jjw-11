@@ -17,7 +17,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 #app = dash.Dash()
-# = app.server
+server= app.server
 # 数据载入
 
 
@@ -85,5 +85,5 @@ def update_scatter(value_Value):
 
 
 if __name__ == '__main__':
-    app.run_server( debug=True)
+    app.server.run()
 
