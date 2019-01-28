@@ -30,7 +30,7 @@ app.layout = html.Div([
                 '成都栖睿',
                  style={
             'textAlign': 'center',
-            'color': '#7FDBFF'
+            'color': '#000000'
          }
         ),
         html.Div(children='''
@@ -38,7 +38,7 @@ app.layout = html.Div([
     ''',
     style={
             'textAlign': 'center',
-            'color': '#7FDBFF'}
+            'color': '#000000'}
     ),
            
     html.Div([
